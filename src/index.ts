@@ -20,6 +20,9 @@ let course = "javascript";
 let passed: boolean = false;
 let failed = false;
 
+function ifPassed(student: string, grade: number){
+    console.log(student)
+}
 // arrays
 let numbers: number[] = [1,2,3]
 let students: string[] = ["sam", "max", "min"]
@@ -43,3 +46,12 @@ const enum sizes { Small = 2, Medium, Large}
 
 let mySize: sizes = sizes.Small
 console.log(mySize)
+
+//functions
+function strin(name: string): string {
+    return "hello"
+}
+
+function num(name: string): number {
+    return 0
+}

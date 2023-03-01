@@ -10,6 +10,9 @@ let courses = "javascript";
 let course = "javascript";
 let passed = false;
 let failed = false;
+function ifPassed(student, grade) {
+    console.log(student);
+}
 let numbers = [1, 2, 3];
 let students = ["sam", "max", "min"];
 let players = [
