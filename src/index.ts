@@ -9,16 +9,23 @@ function getStudent(anyType: any){
     console.log(anyType)
 }
 
-
 // number
 let age: number = 20;
-
 
 //string
 let courses: string = "javascript";
 let course = "javascript";
 
-
 // boolean
 let passed: boolean = false;
 let failed = false;
+
+// arrays
+let numbers: number[] = [1,2,3]
+let students: string[] = ["sam", "max", "min"]
+let players: object[] = [
+                            {name: "sam"}
+                            , 
+                            {name: "max"}
+                        ]
+
