@@ -36,6 +36,10 @@ let userTwo: [number, string, boolean, number] = [1, "sam", false, 2]
 
 // enum
 
-enum sizes { Small, Medium, Large}
+const enum sizes { Small = 2, Medium, Large}
+//run tsc and look at the differences ways we are using the enums, with a const and without. How will JS understand them differently?
+
+// enum sizes { Small = 2, Medium, Large}
 
 let mySize: sizes = sizes.Small
+console.log(mySize)

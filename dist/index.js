@@ -18,4 +18,6 @@ let players = [
 ];
 let user = [1, "sam"];
 let userTwo = [1, "sam", false, 2];
+let mySize = 2;
+console.log(mySize);
 //# sourceMappingURL=index.js.map
