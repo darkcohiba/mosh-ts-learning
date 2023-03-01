@@ -64,6 +64,7 @@ function voidReturn(name:string){
 function calculateTax(income: number): number {
     if (income < 50_000)
         return income * .25
+    return income * .10
 }
 //we get an error on number with this because if the income is over 50_000 we will get undefined and that could lead to errors. TSconfig setting noImplicitReturns will prevent you from getting an error here.
 

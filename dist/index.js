@@ -23,4 +23,29 @@ let user = [1, "sam"];
 let userTwo = [1, "sam", false, 2];
 let mySize = 2;
 console.log(mySize);
+function strin(name) {
+    return "hello";
+}
+function num(name) {
+    return 0;
+}
+function voidReturn(name) {
+}
+function calculateTax(income) {
+    if (income < 50000)
+        return income * .25;
+    return income * .10;
+}
+function locals(name) {
+    let x;
+    return name;
+}
+function greeting(name, relationship) {
+    return name + " " + (relationship || "Super");
+}
+console.log(greeting("sam"));
+function greet(name, relationship = "sup") {
+    return name + " " + relationship;
+}
+console.log(greeting("sam"));
 //# sourceMappingURL=index.js.map
