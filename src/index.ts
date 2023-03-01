@@ -73,7 +73,11 @@ function locals(name:string): string {
     return name
 }
 
-//making parameters optional with a question mark
-function greeting(name:string, relationship:string):string {
-    return name + " "
+//making parameters optional with a question mark or you can create a default value
+function greeting(name:string, relationship?:string):string {
+    return name + " " + (relationship || "Super")
 }
+
+greeting("sam")
+
+//default
