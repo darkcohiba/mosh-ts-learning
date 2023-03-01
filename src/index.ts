@@ -65,4 +65,15 @@ function calculateTax(income: number): number {
     if (income < 50_000)
         return income * .25
 }
-//we get an error on number with this because if the income is over 50_000 we will get undefined and that could lead to errors.
+//we get an error on number with this because if the income is over 50_000 we will get undefined and that could lead to errors. TSconfig setting noImplicitReturns will prevent you from getting an error here.
+
+//the setting no unUnsedLocals is helpful to make sure we are using variables defined within functions. Avoiding below:
+function locals(name:string): string {
+    let x;
+    return name
+}
+
+//making parameters optional with a question mark
+function greeting(name:string, relationship:string):string {
+    return name + " "
+}
