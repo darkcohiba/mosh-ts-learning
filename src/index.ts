@@ -55,3 +55,9 @@ function strin(name: string): string {
 function num(name: string): number {
     return 0
 }
+
+function voidReturn(name:string){
+
+}
+
+//we can turn on noUnusedParameters and this will raise an exception if we dont use our parameters in a function
