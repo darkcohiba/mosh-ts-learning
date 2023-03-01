@@ -86,4 +86,4 @@ function greet(name:string, relationship = "sup"):string {
     return name + " " + relationship
 }
 
-console.log(greeting("sam"))
+console.log(greet("sam"))
