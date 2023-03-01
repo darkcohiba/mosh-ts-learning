@@ -79,11 +79,11 @@ function greeting(name:string, relationship?:string):string {
     return name + " " + (relationship || "Super")
 }
 
-console.log(greeting("sam"))
+// console.log(greeting("sam"))
 
 //default
 function greet(name:string, relationship = "sup"):string {
     return name + " " + relationship
 }
 
-console.log(greet("sam"))
+// console.log(greet("sam"))
