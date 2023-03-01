@@ -33,3 +33,9 @@ let players: object[] = [
 let user: [number, string] = [1, "sam"]
 // most value with two elements, can be overwhelming with more
 let userTwo: [number, string, boolean, number] = [1, "sam", false, 2]
+
+// enum
+
+enum sizes { Small, Medium, Large}
+
+let mySize: sizes = sizes.Small

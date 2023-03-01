@@ -1,6 +1,21 @@
 "use strict";
-let age = 30;
-if (age < 50)
-    age += 50;
-console.log(age);
+let student;
+student = 1;
+student = "any type";
+function getStudent(anyType) {
+    console.log(anyType);
+}
+let age = 20;
+let courses = "javascript";
+let course = "javascript";
+let passed = false;
+let failed = false;
+let numbers = [1, 2, 3];
+let students = ["sam", "max", "min"];
+let players = [
+    { name: "sam" },
+    { name: "max" }
+];
+let user = [1, "sam"];
+let userTwo = [1, "sam", false, 2];
 //# sourceMappingURL=index.js.map
