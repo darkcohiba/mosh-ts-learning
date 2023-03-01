@@ -59,5 +59,9 @@ function num(name: string): number {
 function voidReturn(name:string){
 
 }
-
 //we can turn on noUnusedParameters and this will raise an exception if we dont use our parameters in a function
+
+function calculateTax(income: number): number {
+    if (income < 50_000)
+        return income * .25
+}
