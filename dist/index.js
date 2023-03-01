@@ -47,5 +47,5 @@ console.log(greeting("sam"));
 function greet(name, relationship = "sup") {
     return name + " " + relationship;
 }
-console.log(greeting("sam"));
+console.log(greet("sam"));
 //# sourceMappingURL=index.js.map
