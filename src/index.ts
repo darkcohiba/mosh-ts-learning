@@ -92,14 +92,18 @@ function greet(name:string, relationship = "sup"):string {
 //objects
 
 let employee = {id: 1}
-//we can do this JS but not in TS
+//we can do this JS but not in TS since at this point name doesn't exist and we can not add it to it
 // employee.name = "Sam"
 //or we can make object like
 let manager: {
+    //currently we can change the id property at any time, we can add 'readonly' before id to prevent the id property from being modified
     id: number,
     // name is required in our object unless we mark it with a question mark. We can also put an empty string for name and that will allow us to replace it
     name?: string
 } = {
     id: 1
 }
+// since name is optional above we can add it below
+manager.name = "Sam"
+
 
