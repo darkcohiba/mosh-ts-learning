@@ -99,9 +99,13 @@ let manager: {
     //currently we can change the id property at any time, we can add 'readonly' before id to prevent the id property from being modified
     id: number,
     // name is required in our object unless we mark it with a question mark. We can also put an empty string for name and that will allow us to replace it
-    name?: string
+    name?: string,
+    retire: (date: Date) => void
 } = {
-    id: 1
+    id: 1,
+    retire: (date: Date) =>{
+        console.log(date)
+    }
 }
 // since name is optional above we can add it below
 manager.name = "Sam"
