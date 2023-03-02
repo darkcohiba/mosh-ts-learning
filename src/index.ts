@@ -87,3 +87,10 @@ function greet(name:string, relationship = "sup"):string {
 }
 
 // console.log(greet("sam"))
+
+
+//objects
+
+let employee = {id: 1}
+//we can do this JS but not in TS
+// employee.name = "Sam"
