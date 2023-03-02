@@ -94,3 +94,12 @@ function greet(name:string, relationship = "sup"):string {
 let employee = {id: 1}
 //we can do this JS but not in TS
 // employee.name = "Sam"
+//or we can make object like
+let manager: {
+    id: number,
+    // name is required in our object unless we mark it with a question mark. We can also put an empty string for name and that will allow us to replace it
+    name?: string
+} = {
+    id: 1
+}
+
