@@ -116,13 +116,19 @@ manager.name = "Sam"
 //Type Alias
 //created a new type for our manager( called staff ) defined above
 
-type staff = {
+type Staff = {
     id: number,
     name: string,
     retire: (date: Date) => void
 }
 
 //we can use it like so:
-
+let sam: Staff ={
+    id: 1,
+    name: "Sam",
+    retire: (date: Date) => {
+        console.log(date)
+    }
+}
 
 
