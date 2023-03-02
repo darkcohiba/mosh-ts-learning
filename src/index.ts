@@ -111,3 +111,18 @@ let manager: {
 manager.name = "Sam"
 
 
+//ADVANCED TYPES
+
+//Type Alias
+//created a new type for our manager( called staff ) defined above
+
+type staff = {
+    id: number,
+    name: string,
+    retire: (date: Date) => void
+}
+
+//we can use it like so:
+
+
+
