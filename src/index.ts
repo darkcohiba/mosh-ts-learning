@@ -114,7 +114,7 @@ manager.name = "Sam"
 //ADVANCED TYPES
 
 //Type Alias
-//created a new type for our manager( called staff ) defined above
+//created a new type for our manager( called staff ) defined below
 
 type Staff = {
     id: number,
