@@ -131,4 +131,13 @@ let sam: Staff ={
     }
 }
 
+//union types
+function kgToLbs( weight: number | string): number {
+    //narrowing down the union to specific type
+    if (typeof weight === 'number'){
+        return weight * 2.2
+    } else{
+        return parseInt(weight) * 2.2
+    }
+}
 

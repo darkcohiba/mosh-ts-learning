@@ -43,9 +43,30 @@ function locals(name) {
 function greeting(name, relationship) {
     return name + " " + (relationship || "Super");
 }
-console.log(greeting("sam"));
 function greet(name, relationship = "sup") {
     return name + " " + relationship;
 }
-console.log(greet("sam"));
+let employee = { id: 1 };
+let manager = {
+    id: 1,
+    retire: (date) => {
+        console.log(date);
+    }
+};
+manager.name = "Sam";
+let sam = {
+    id: 1,
+    name: "Sam",
+    retire: (date) => {
+        console.log(date);
+    }
+};
+function kgToLbs(weight) {
+    if (typeof weight === 'number') {
+        return weight * 2.2;
+    }
+    else {
+        return parseInt(weight) * 2.2;
+    }
+}
 //# sourceMappingURL=index.js.map
