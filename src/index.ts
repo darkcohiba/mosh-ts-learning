@@ -150,12 +150,6 @@ type Resizable = {
     resize: () => void
 }
 
-
-// Literal type specifies (exact, specific)
-//create our type
-
-let quantity: 50 | 100 = 100;
-
 //combing our two types into one type that can be used 
 type UIWidget = Draggable & Resizable
 //our textbox now has access to both of these created functions
@@ -165,6 +159,12 @@ let textBox: UIWidget = {
 }
 
 
+// Literal type specifies (exact, specific)
+//create our type
+type Quantity = 50 | 100;
+let quantity: Quantity = 50;
+
+type Metric = "cm" | "inch";
 
 
 
