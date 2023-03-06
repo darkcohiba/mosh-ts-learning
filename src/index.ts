@@ -167,21 +167,23 @@ let quantity: Quantity = 50;
 //this can also work with strings
 type Metric = "cm" | "inch";
 
-let friends : [
+
+let friends : 
     {
         id: number,
         name: string,
         height: number,
         measurement: Metric
     }
-] = [
+= 
     {
         id: 1,
         name: "Sam",
-        height: 12,
+        height: 60,
         measurement: "inch"
     }
-]
+
+
 
 
 
